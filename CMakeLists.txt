@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(dft)
+project(dsplib)
 
 set(SOURCES
     src/dft.cpp
@@ -9,7 +9,7 @@ set(SOURCES
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-target_include_directories(dft
+target_include_directories(dsplib
     PRIVATE
         ${PROJECT_SOURCE_DIR}/include
 )
